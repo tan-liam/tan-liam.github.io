@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "CS 70: Discrete Mathematics and Probability Theory"
+date:   2021-01-01 00:00:00 +00:00
+image: "/70.png"
+categories: teaching
+---
+Teaching Assistant: <a href="http://www.su22.eecs70.org">Summer 2022</a>
+<br><br>
+Reader: <a href="http://www.sp22.eecs70.org">Spring 2022</a>
+
+

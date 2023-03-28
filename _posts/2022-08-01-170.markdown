@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "CS 170: Efficient Algorithms and Intractable Problems"
+date:   2021-01-01 00:00:00 +00:00
+image: "/170.png"
+categories: teaching
+---
+Reader: <a href="https://cs170.org/">Fall 2022</a>
+
+

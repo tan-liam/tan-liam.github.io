@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "EECS 126: Probability and Random Processes"
+date:   2021-01-01 00:00:00 +00:00
+image: "/126.png"
+categories: teaching
+---
+Reader: <a href="https://inst.eecs.berkeley.edu/~ee126/sp23/">Spring 2023</a>
+
+

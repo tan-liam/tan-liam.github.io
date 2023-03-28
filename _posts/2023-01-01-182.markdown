@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "CS 182: Deep Neural Networks"
+date:   2021-01-01 00:00:00 +00:00
+image: "/182.png"
+categories: teaching
+---
+Tutor: <a href="https://inst.eecs.berkeley.edu/~cs182/sp23/">Spring 2023</a>
+
+
