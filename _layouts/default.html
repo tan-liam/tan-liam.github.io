@@ -132,52 +132,6 @@
         <br>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Misc</h2>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'teaching' %}
-          <tr>
-            {% if post.image %}
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            {% endif %}
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {% if post.authors %}
-              {{post.authors}}
-              <br>
-              {% endif %}
-              {% if post.course %}
-              <em>{{post.course}}</em>{% if post.semester %}, {{post.semester}}{% endif %}
-<!--              <br>-->
-<!--              {{ post.date | date: "%Y-%m-%d" }}-->
-              <br>
-              {% endif %}
-              {% if post.writeup %}
-              <a href="{{post.writeup}}">writeup</a> /
-              {% endif %}
-              {% if post.leaderboard %}
-              <a href="{{post.leaderboard}}">leaderboard</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
             <td style="padding:0px">
               <br>
               <p style="text-align:center;font-size:small;">
